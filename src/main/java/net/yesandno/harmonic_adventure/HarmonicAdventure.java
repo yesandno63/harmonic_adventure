@@ -14,6 +14,7 @@ import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.yesandno.harmonic_adventure.block.ModBlocks;
 import net.yesandno.harmonic_adventure.item.ModCreativeModTabs;
 import net.yesandno.harmonic_adventure.item.ModItems;
 import org.slf4j.Logger;
@@ -29,6 +30,7 @@ public HarmonicAdventure() {
         ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

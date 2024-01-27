@@ -1,6 +1,11 @@
 {
   "creativetab.harmonic_adventure_tab": "Harmonic adventure",
+
   "item.harmonic_adventure.steel": "Steel",
   "item.harmonic_adventure.steel_nugget": "Steel nugget",
-  "item.harmonic_adventure.blood_tear": "Blood tear"
+  "item.harmonic_adventure.blood_tear": "Blood tear",
+  "item.harmonic_adventure.sapphire": "Sapphire",
+
+  "block.harmonic_adventure.sapphire_block": "Sapphire block",
+  "block.harmonic_adventure.steel_block": "Sapphire block"
 }
