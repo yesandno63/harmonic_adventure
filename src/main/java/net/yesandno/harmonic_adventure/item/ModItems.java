@@ -14,6 +14,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> STEEL_NUGGET = Items.register("steel_nugget",
             () -> new Item((new Item.Properties())));
+    public static final RegistryObject<Item> BLOOD_TEAR = Items.register("blood_tear",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         Items.register(eventBus);

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "harmonic_adventure:item/blood_tear"
+  }
+}
