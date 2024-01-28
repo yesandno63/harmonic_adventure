@@ -7,5 +7,5 @@
   "ingredient": {
     "item": "minecraft:iron_ingot"
   },
-  "result": "minecraft:steel"
+  "result": "harmonic_adventure:steel"
 }
