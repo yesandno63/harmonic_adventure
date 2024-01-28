@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "harmonic_adventure:steel_block"
+    }
+  ],
+  "result": {
+    "item": "harmonic_adventure:steel",
+    "count": 9
+  }
+}

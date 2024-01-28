@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "harmonic_adventure:sapphire_block"
+    }
+  ],
+  "result": {
+    "item": "harmonic_adventure:sapphire",
+    "count": 9
+  }
+}

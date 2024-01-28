@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "harmonic_adventure:steel"
+    }
+  },
+  "result": {
+    "item": "harmonic_adventure:steel_block"
+  }
+}
