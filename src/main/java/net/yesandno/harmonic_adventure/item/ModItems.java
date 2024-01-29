@@ -19,6 +19,7 @@ public class ModItems {
     public static final RegistryObject<Item> SAHPPIRE = Items.register("sapphire",
             () -> new Item(new Item.Properties()));
 
+
     public static void register(IEventBus eventBus) {
         Items.register(eventBus);
     }

@@ -23,6 +23,7 @@ public class ModCreativeModTabs {
                        output.accept(ModItems.BLOOD_TEAR.get());
                        output.accept(ModItems.SAHPPIRE.get());
 
+                       output.accept(ModBlocks.SAPPHIRE_ORE.get());
                        output.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                        output.accept(ModBlocks.STEEL_BLOCK.get());
                     })

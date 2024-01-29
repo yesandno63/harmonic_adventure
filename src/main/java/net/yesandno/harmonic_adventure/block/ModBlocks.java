@@ -18,11 +18,13 @@ import java.util.function.Supplier;
 public class ModBlocks {
     public static final DeferredRegister<Block> Blocks =
             DeferredRegister.create(ForgeRegistries.BLOCKS, HarmonicAdventure.MOD_ID);
-
+    public static final RegistryObject<Block> SAPPHIRE_ORE = registerBlock("sapphire_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(net.minecraft.world.level.block.Blocks.EMERALD_ORE)));
     public static final RegistryObject<Block> SAPPHIRE_BLOCK = registerBlock("sapphire_block",
             () -> new Block(BlockBehaviour.Properties.copy(net.minecraft.world.level.block.Blocks.EMERALD_BLOCK).sound(SoundType.AMETHYST)));
     public static final RegistryObject<Block> STEEL_BLOCK = registerBlock("steel_block",
             () -> new Block(BlockBehaviour.Properties.copy(net.minecraft.world.level.block.Blocks.IRON_BLOCK)));
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = Blocks.register(name, block);

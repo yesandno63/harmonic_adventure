@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "harmonic_adventure:block/sapphire_ore"
+  }
+}
