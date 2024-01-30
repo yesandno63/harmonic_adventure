@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 2.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "harmonic_adventure:sapphires"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "harmonic_adventure:blocks/sapphire_ore"
+}
